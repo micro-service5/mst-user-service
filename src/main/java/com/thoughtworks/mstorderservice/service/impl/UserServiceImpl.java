@@ -37,4 +37,10 @@ public class UserServiceImpl implements UserService {
                 .privileges(role.getPrivileges().stream().map(Privilege::getSymbol).collect(toList()))
                 .build();
     }
+
+    public void setUserAddress(String userName, String address){
+        User user = userRepository.findByName(userName);
+        user.setAddress(address);
+        userRepository.save(user);
+    }
 }
