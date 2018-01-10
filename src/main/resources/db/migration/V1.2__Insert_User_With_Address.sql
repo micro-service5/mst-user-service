@@ -1,0 +1,1 @@
+UPDATE `t_user` SET `address` = '北京市朝阳区阜安西路SOHOT3五楼' WHERE `id` = '40b2dd57ca074dc0bd757c3e36fb2ffd';
