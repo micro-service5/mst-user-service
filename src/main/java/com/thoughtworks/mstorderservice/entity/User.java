@@ -25,6 +25,8 @@ public class User implements Serializable {
 
     private String password;
 
+    private String address;
+
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "role")
     private Role role;
