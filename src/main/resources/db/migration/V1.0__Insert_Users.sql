@@ -2,7 +2,7 @@ INSERT INTO `t_role` (`symbol`, `name`) VALUES ('SYSTEM_ADMIN', '系统管理员
 
 INSERT INTO `t_user` (`id`,  `name`, `password`, role) VALUES
   ('40b2dd57ca074dc0bd757c3e36fb2ffd', 'admin',
-   '$2a$10$W3rO9JXdqvH01bYK/QRYCO7VYNsPDI2tK.4zzmAarYYlE1fLoXxfe', 'SYSTEM_ADMIN');
+   '$2a$10$waEY3d0kvevCls6PiruDJuEF3MUesJh5RBqwVHxsM9VDBvQ2ghvpy', 'SYSTEM_ADMIN');
 
 
 INSERT INTO `t_privilege` (`symbol`, `name`) VALUES ('CREATE_USER', '创建用户');
