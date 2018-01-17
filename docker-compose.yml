@@ -24,7 +24,6 @@ services:
     stdin_open: true
 
   user-server:
-    build: .
     ports:
       - '8090:8090'
     environment:
