@@ -24,6 +24,7 @@ services:
     stdin_open: true
 
   user-server:
+    image: <IMAGE_NAME>
     ports:
       - '8090:8090'
     environment:
