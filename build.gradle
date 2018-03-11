@@ -14,6 +14,7 @@ buildscript {
 }
 
 apply plugin: 'java'
+apply plugin: 'base'
 apply plugin: 'eclipse'
 apply plugin: "org.flywaydb.flyway"
 apply plugin: 'org.junit.platform.gradle.plugin'
